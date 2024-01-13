@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.parent-box .container {
+  background: black;
+}
+
+.parent-box , .footer , .nav{
+    background: black;
+}
+
+.img-box{
+    width: 6rem;
+}
+
+.bg-secondary{
+    color: black;
+    padding: .7rem 1.1rem;
+    border-radius: 50%;
+}
+
+.player-box i{
+    cursor: pointer;
+}
+
+.footer-img{
+    width: 15rem;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+    color: white;
+}
+
+.col-12{
+    background: #2A2A2A; 
+    border-radius: 10px;
+    transition: background .3s ease !important;
+    cursor: pointer;
+    overflow: hidden;
+    padding: .5rem;
+}
